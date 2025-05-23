@@ -41,18 +41,24 @@
             padding: 2rem;
             border-radius: 4px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
-        .image-placeholder {
+        .content-image {
             width: 100%;
-            height: 200px;
-            background-color: #e0e0e0;
-            margin-bottom: 1rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-style: italic;
-            color: #666;
+            max-width: 400px;
+            height: auto;
+            max-height: 500px;
+            object-fit: contain;
+            margin: 0 auto 1rem auto;
+            display: block;
+            border-radius: 4px;
+        }
+
+        .content-text {
+            width: 100%;
         }
 
         footer {
@@ -86,49 +92,47 @@
 
     <div class="container">
         <div class="content-section">
-                    <div class="content-box">
-                    <img src="https://raw.githubusercontent.com/BorgerligAntifascistiskForening/BAF/main/standard_c-j-hambro.jpg"
+            <div class="content-box">
+                <img src="https://raw.githubusercontent.com/BorgerligAntifascistiskForening/BAF/main/standard_c-j-hambro.jpg"
                      alt="C.J. Hambro"
-                     style="width: 100%; height: auto; margin-bottom: 1rem;">
+                     class="content-image">
+                <div class="content-text">
+                    <p>
+                        Carl Joachim Hambro var stortingsrepresentant for Høyre (1919-57), stortingspresident (1926-33 og 1935-45), formann i Høyres stortingsgruppe 1926-57 samt formann i Høyres sentralstyre 1926-34 og 1950-54.
+                    </p>
+                    <p>I en tid der sentrale krefter i Høyre uttrykte sterk begeistring for fascismen i Europa tok Hambro tok et knallhardt oppgjør med alle som leflet med dette tankegodset.
+    C.J Hambro har blant annet:</p>
+                    <ul>
+                        <li>Hindret partilederens tilsluttning til samarbeid med den nasjonalistiske og høyreekstreme gruppen Fedrelandslaget</li>
+                        <li>Stanset de økonomiske bidragene fra næringslivet (blant anna fra Norsk Hydro og hvalfangstrederne i Vestfold) til Fedrelandslaget</li>
+                        <li>Jobbet hardt for å stanse Høyres mulige listesamarbeid med det nazistiske partiet Nasjonal Samling.</li>
+                        <li>Internasjonalt gikk han tydelig ut mot den britiske, franske og amerikanske passiviteten ovenfor Hitler og Mussolini. Han tok til orde for internasjonale sanksjoner og, etter hvert, militærmakt mot dem.</li>
+                    </ul>
                 </div>
-                <p>
-                    Carl Joachim Hambro var stortingsrepresentant for Høyre (1919-57), stortingspresident (1926-33 og 1935-45), formann i Høyres stortingsgruppe 1926-57 samt formann i Høyres sentralstyre 1926-34 og 1950-54.
-                </p>
-                <p>I en tid der sentrale krefter i Høyre uttrykte sterk begeistring for fascismen i Europa tok Hambro tok et knallhardt oppgjør med alle som leflet med dette tankegodset.
-C.J Hambro har blant annet:</p>
-                <ul>
-                    <li>Hindret partilederens tilsluttning til samarbeid med den nasjonalistiske og høyreekstreme gruppen Fedrelandslaget</li>
-                    <li>Stanset de økonomiske bidragene fra næringslivet (blant anna fra Norsk Hydro og hvalfangstrederne i Vestfold) til Fedrelandslaget</li>
-                    <li>Jobbet hardt for å stanse Høyres mulige listesamarbeid med det nazistiske partiet Nasjonal Samling.</li>
-                    <li>Internasjonalt gikk han tydelig ut mot den britiske, franske og amerikanske passiviteten ovenfor Hitler og Mussolini. Han tok til orde for internasjonale sanksjoner og, etter hvert, militærmakt mot dem.</li>
-                </ul>
-
             </div>
 
-                    <div class="content-box">
-                    <img src="https://raw.githubusercontent.com/BorgerligAntifascistiskForening/BAF/main/Harald_Gram.jpg"
-                     alt="C.J. Hambro"
-                     style="width: 100%; height: auto; margin-bottom: 1rem;">
-                    [Bilde 2]
+            <div class="content-box">
+                <img src="https://raw.githubusercontent.com/BorgerligAntifascistiskForening/BAF/main/Harald_Gram.jpg"
+                     alt="Harald Gram"
+                     class="content-image">
+                <div class="content-text">
+                    <p>
+                        I en tid der sentrale krefter i Høyre uttrykte sterk begeistring for fascismen i Europa jobbet Gram mot at fascistisk tankegods skulle få fotfeste i Høyre.
+    Harald Gram jobbet blant annet hardt for å unngå at Høyre skulle inngå listesamarbeid med nazist-partiet Nasjonal Samling på 30-tallet.
+                    </p>
+                    <ul>
+                        <li>Harald Gram jobbet blant annet hardt for å unngå at Høyre skulle inngå listesamarbeid med nazist-partiet Nasjonal Samling på 30-tallet.</li>
+                        <li>Under andre verdenskrig ble Gram involvert i organiseringen av det tidligste motstandsarbeidet. </li>
+                        <li>Jobbet hardt for å stanse Høyres mulige listesamarbeid med det nazistiske partiet Nasjonal Samling.</li>
+                        <li>I 1942 ble han av eksilregjeringen i London bedt om å lede arbeidet med koordinering og finansiering av motstandsarbeidet. I kraft av sin posisjon støttet han motstandsbevegelser uavhengig av ideologiske skillelinjer. Han finansierte blant annet aksjoner utført av den kommunistiske motstandsbevegelsen, noe som gjorde at han kom kom i konflikt med sin egen regjeringens politikk</li>
+                    </ul>
                 </div>
-                <p>
-                    I en tid der sentrale krefter i Høyre uttrykte sterk begeistring for fascismen i Europa jobbet Gram mot at fascistisk tankegods skulle få fotfeste i Høyre.
-Harald Gram jobbet blant annet hardt for å unngå at Høyre skulle inngå listesamarbeid med nazist-partiet Nasjonal Samling på 30-tallet.
-                </p>
-                <ul>
-                    <li>Harald Gram jobbet blant annet hardt for å unngå at Høyre skulle inngå listesamarbeid med nazist-partiet Nasjonal Samling på 30-tallet.</li>
-                    <li>Under andre verdenskrig ble Gram involvert i organiseringen av det tidligste motstandsarbeidet. </li>
-                    <li>Jobbet hardt for å stanse Høyres mulige listesamarbeid med det nazistiske partiet Nasjonal Samling.</li>
-                    <li>I 1942 ble han av eksilregjeringen i London bedt om å lede arbeidet med koordinering og finansiering av motstandsarbeidet. I kraft av sin posisjon støttet han motstandsbevegelser uavhengig av ideologiske skillelinjer. Han finansierte blant annet aksjoner utført av den kommunistiske motstandsbevegelsen, noe som gjorde at han kom kom i konflikt med sin egen regjeringens politikk</li>
-                </ul>
             </div>
         </div>
     </div>
 
     <footer>
-        <p>
-            Sånn ser (også) en antifascist ut
-        </p>
+        <p>Sånn ser (også) en antifascist ut</p>
     </footer>
 </body>
 </html>
